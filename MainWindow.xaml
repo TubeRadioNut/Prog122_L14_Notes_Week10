@@ -1,0 +1,56 @@
+﻿<Window
+    x:Class="Prog122_L14_Notes_Week10.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Prog122_L14_Notes_Week10"
+    mc:Ignorable="d"
+    Title="MainWindow"
+    Height="450"
+    Width="800">
+    <Canvas
+        Background="#FFC4B1B1">
+        <RichTextBox
+            Canvas.Left="31"
+            Canvas.Top="340"
+            Width="408"
+            HorizontalAlignment="Left"
+            Height="24"
+            VerticalAlignment="Top">
+            <FlowDocument>
+                <Paragraph>
+                    <Run
+                        x:Name="runDisplay"
+                        Text="" />
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <ComboBox
+            x:Name="cmbStyles"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="214"
+            Canvas.Left="509"
+            Canvas.Top="342" />
+        <Image
+            x:Name="imgDisplay"
+            HorizontalAlignment="Left"
+            Height="254"
+            VerticalAlignment="Top"
+            Width="709"
+            Canvas.Left="63"
+            Canvas.Top="48" />
+        <Button
+            x:Name="btnLoadImage"
+            Content="Load Image"
+            Canvas.Left="219"
+            Canvas.Top="380"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Width="147"
+            Height="28"
+            Click="btnLoadImage_Click" />
+
+    </Canvas>
+</Window>
