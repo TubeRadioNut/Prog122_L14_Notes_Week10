@@ -1,4 +1,8 @@
-﻿using Microsoft.Win32;
+﻿//Charles Milender
+//6-3-2024
+//Programming 122
+//Lecture 14
+using Microsoft.Win32;
 using System.Diagnostics;
 using System.Text;
 using System.Windows;
